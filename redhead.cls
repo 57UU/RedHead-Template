@@ -2,7 +2,7 @@
 \ProvidesClass{redhead}[2023/09/10 Red Head Document Class]
 
 % 载入基础类
-\LoadClass[12pt]{ctexart}
+\LoadClass[12pt,UTF-8]{ctexart}
 
 % 载入需要的宏包
 \RequirePackage{xcolor}
@@ -38,7 +38,6 @@
 }
 
 
-
 \pagestyle{plain}
 % 部门名称
 \newcommand{\department}[1]{\gdef\@department{#1}}
@@ -66,6 +65,7 @@
     }
   \end{minipage}
   
+  %title
   \begin{center}
     \vspace*{1cm}
     \Huge\bfseries\songti\@title \\
